@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">HelloWorld</string>
+  <string name="Weight">体重</string>
+  <string name="Height">身長</string>
+  <string name="BmiMessage">BMIは%fです</string>
+</resources>
