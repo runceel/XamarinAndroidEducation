@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Navigation", "02.Navigat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationApp", "02.Navigation\NavigationApp\NavigationApp.csproj", "{D43BE0C8-211B-4E7C-929C-3F560109B95A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.ActivityLifecycle", "03.ActivityLifecycle", "{D6BED9B4-10D4-4CE6-89CA-63CB0325ED07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityLifecycle", "03.ActivityLifecycle\ActivityLifecycle\ActivityLifecycle.csproj", "{1BF6332F-45E5-46E3-BFC5-08364F92A096}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +38,12 @@ Global
 		{D43BE0C8-211B-4E7C-929C-3F560109B95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43BE0C8-211B-4E7C-929C-3F560109B95A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D43BE0C8-211B-4E7C-929C-3F560109B95A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1BF6332F-45E5-46E3-BFC5-08364F92A096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF6332F-45E5-46E3-BFC5-08364F92A096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF6332F-45E5-46E3-BFC5-08364F92A096}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1BF6332F-45E5-46E3-BFC5-08364F92A096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF6332F-45E5-46E3-BFC5-08364F92A096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF6332F-45E5-46E3-BFC5-08364F92A096}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +51,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6BE287C2-509E-4649-9287-4C8F294DA219} = {F75B1588-7058-4C5D-8CDA-C856BF0BBE59}
 		{D43BE0C8-211B-4E7C-929C-3F560109B95A} = {B01F44C7-2687-429C-9AFE-04EF1787CAF2}
+		{1BF6332F-45E5-46E3-BFC5-08364F92A096} = {D6BED9B4-10D4-4CE6-89CA-63CB0325ED07}
 	EndGlobalSection
 EndGlobal
