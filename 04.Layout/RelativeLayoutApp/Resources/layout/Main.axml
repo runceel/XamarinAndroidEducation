@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Center" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Right|above"
+        android:layout_toRightOf="@id/MyButton"
+        android:layout_above="@id/MyButton" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="Left|below"
+        android:layout_toLeftOf="@id/MyButton"
+        android:layout_below="@id/MyButton" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="alignLeft|below"
+        android:layout_alignLeft="@id/MyButton"
+        android:layout_below="@id/MyButton" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:text="alignRight|above"
+        android:layout_alignRight="@id/MyButton"
+        android:layout_above="@id/MyButton" />
+</RelativeLayout>
